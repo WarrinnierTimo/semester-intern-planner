@@ -57,6 +57,20 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        domain: {
+          health: "hsl(var(--domain-health))",
+          technology: "hsl(var(--domain-technology))",
+          business: "hsl(var(--domain-business))",
+          arts: "hsl(var(--domain-arts))",
+          science: "hsl(var(--domain-science))",
+        },
+        status: {
+          concept: "hsl(var(--status-concept))",
+          "visible-all": "hsl(var(--status-visible-all))",
+          "visible-student": "hsl(var(--status-visible-student))",
+          "visible-teacher": "hsl(var(--status-visible-teacher))",
+          finished: "hsl(var(--status-finished))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
